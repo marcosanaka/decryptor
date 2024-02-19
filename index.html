@@ -2,19 +2,25 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="site criado no curso de HTML CSS e Javascript da alura">
+    <meta name="author" content="Marcos Roberto Batista de Souza">
+    <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="./styles/style.css">
-    <title>Decryptor</title>
+    <link rel="icon" type="image/png" href="./assets/img/codigo.ico">
+    <script src="https://kit.fontawesome.com/1e84057875.js" crossorigin="anonymous"></script>
 
+    <title>C0D3R & D3C0D3R</title>
 </head>
 
 <body>
     <header class="cabecalho">
         <div class="cabecalho__conteudo">
             <img src="./assets/img/logo.svg" alt="Logo alura">
-            <p><h1 class="cabecalho__texto">$>Decodificador de texto<sector class="blink">_</sector></h1>
+            <p>
+            <h1 class="cabecalho__texto">$>Decodificador de texto<sector class="blink">_</sector>
+            </h1>
             </p>
             <img class="cabecalho__conteudo_security" src="./assets/img/security.svg" alt="Logo security">
         </div>
@@ -38,13 +44,21 @@
             <textarea id="textoResultado" class="apresentacao__conteudo__textarea">_</textarea>
             <div class="apresentacao__conteudo__div__btn__copiar">
                 <button onclick="copiarTexto()" class="apresentacao__conteudo__btn">
-                    Copiar 
+                    Copiar
                 </button>
             </div>
         </section>
     </main>
     <footer class="rodape">
-        <p class="rodape__texto">..::Desenvolvido por Marcos Roberto::..</p>
+        <div class="rodape__div">
+            <p class="rodape__texto"> Desenvolvido por Marcos Roberto - 
+                <i class="fa-brands fa-github fa-xl" style="color: #1fcf36;"></i>
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #1fcf36;"></i>
+                <i class="fa-brands fa-square-instagram fa-xl" style="color: #1fcf36;"></i>
+
+            </p>
+            
+        </div>
     </footer>
     <script src="/assets/js/app.js" defer></script>
 </body>

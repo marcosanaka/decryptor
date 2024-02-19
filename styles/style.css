@@ -1,23 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=VT323);
 
 :root {
+
     --cor-primaria: #1fcf36;
+
 }
 
 * {
+
     margin: 0;
     padding: 0;
+
 }
 
 body {
+
     background-color: rgb(26, 23, 23);
+
 }
 
 .blink {
+
     animation: blink 1s steps(1, end) infinite;
+
 }
 
 @keyframes blink {
+
     0% {
         opacity: 1;
     }
@@ -32,11 +41,13 @@ body {
 }
 
 .cabecalho {
+
     padding: 2% 15% 0 15%;
 
 }
 
 .cabecalho__conteudo {
+
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -45,42 +56,50 @@ body {
 }
 
 .cabecalho__conteudo_security {
+
     width: 60px;
     height: 60px;
     padding: 30px;
 }
 
 .cabecalho__texto {
+
     display: flex;
     font-size: 2.2rem;
     color: var(--cor-primaria);
     align-items: center;
     justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 .apresentacao {
-    /* margin: 10% 15%; */
+
     padding: 10% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .apresentacao__conteudo {
+
     width: 615px;
     display: flex;
     flex-direction: column;
     gap: 25px;
+
 }
 
 .apresentacao__conteudo__texto__textarea {
+
     font-size: 1.5rem;
     color: var(--cor-primaria);
     font-family: 'Courier New', Courier, monospace;
 }
 
 .apresentacao__conteudo__textarea {
+
     padding: 10px;
     background-color: rgb(26, 23, 23);
     color: var(--cor-primaria);
@@ -96,16 +115,19 @@ body {
 }
 
 .apresentacao__conteudo__div__btn {
+
     display: flex;
     justify-content: space-between;
 }
 
 .apresentacao__conteudo__div__btn__copiar {
+
     display: flex;
     justify-content: flex-end;
 }
 
 .apresentacao__conteudo__textarea__codificado {
+
     padding: 10px;
     background-color: rgb(26, 23, 23);
     color: var(--cor-primaria);
@@ -121,6 +143,7 @@ body {
 }
 
 .apresentacao__conteudo__btn {
+
     font-family: 'VT323', monospace;
     background: rgb(26, 23, 23);
     border-style: solid;
@@ -136,21 +159,30 @@ body {
     text-decoration: none;
 
     &:hover {
+
         background: var(--cor-primaria);
         color: rgb(26, 23, 23);
     }
 }
 
 .rodape {
+
     padding: 2% 15% 0 15%;
     text-align: center;
 
 }
 
-.rodape__texto {
+.rodape__div {
+
     border: var(--cor-primaria);
     border-style: double;
-    font-size: 1rem;
+    padding: 1% 0 1% 0;
+}
+
+.rodape__texto {
+
     color: var(--cor-primaria);
+    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
+
 }
