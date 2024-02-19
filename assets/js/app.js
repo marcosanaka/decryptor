@@ -34,3 +34,10 @@ console.log(mensagemcod);
 exibirTextoNaTela(mensagemcod);
 
 }
+
+function copiarTexto() {
+    let textoCopiado = document.getElementById("textoResultado");
+    textoCopiado.select();
+    textoCopiado.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+}
