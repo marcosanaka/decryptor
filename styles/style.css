@@ -79,6 +79,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
@@ -169,6 +170,7 @@ body {
 
     padding: 2% 15% 0 15%;
     text-align: center;
+    
 
 }
 
@@ -177,6 +179,7 @@ body {
     border: var(--cor-primaria);
     border-style: double;
     padding: 1% 0 1% 0;
+    
 }
 
 .rodape__texto {
@@ -184,6 +187,26 @@ body {
     color: var(--cor-primaria);
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+
+        padding: 3% 3% 0 3%;
     
+    }
+    .apresentacao {
+        flex-direction: column;
+    }
+    .rodape {
+
+        padding: 2% 3% 0 3%;
+        text-align: center;
+    
+    }
+
 
 }
